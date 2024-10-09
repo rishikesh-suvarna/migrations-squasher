@@ -1,7 +1,7 @@
 {
   "name": "migrations-squasher",
   "version": "1.0.0",
-  "description": "",
+  "description": "Migrations Squasher is an `npx` CLI tool designed to help developers manage and squash a large number of migrations generated over time in a project. This tool is particularly useful for projects that use Sequelize as their ORM.",
   "bin": {
     "squash-migrations": "./src/squashMigrations.js"
   },
@@ -10,10 +10,11 @@
     "dev": "node src/squashMigrations.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rishikesh Suvarna",
   "license": "ISC",
   "dependencies": {
     "commander": "^12.1.0",
+    "pg": "^8.13.0",
     "sequelize": "^6.37.4",
     "sequelize-cli": "^6.6.2",
     "umzug": "^3.8.2"
