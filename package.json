@@ -1,0 +1,21 @@
+{
+  "name": "migrations-squasher",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "squash-migrations": "./src/squashMigrations.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/squashMigrations.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "sequelize": "^6.37.4",
+    "sequelize-cli": "^6.6.2",
+    "umzug": "^3.8.2"
+  }
+}
